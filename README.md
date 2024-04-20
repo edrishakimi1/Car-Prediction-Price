@@ -319,6 +319,10 @@ Importantly, this metric squares the difference between the predicted and actual
 
 When evaluating models, a model with both a low MAE and MSE is considered good, but these two metrics can sometimes tell a slightly different story. A low MAE with high MSE might indicate that while a model is generally accurate, there are a few predictions with large errors (potential outliers). Conversely, a high MAE with a low MSE might suggest that the model consistently makes moderate errors but doesn't have extreme errors.
 
+1. Dataframe of Machine Learning Models with MAE, MSE Values
+<img width="317" alt="Dataframe of Machine Learning Models and MAE, MSE values" src="https://github.com/edrishakimi1/Sc1015-Retail-Car-Prediction-Price/assets/106168087/60c5d474-3b25-4e26-9906-905948dcd115">
+
+
 3. Barplot Analysis
 
 The bar plots help to visualise these metrics across different models. In the context of car price prediction, we want to look at models that has the lowest bar in both MAE and MSE plots. 
