@@ -162,7 +162,47 @@ In order to evaluate how we gonna predict the car price, we have to consider the
 
 ## Machine Learning 
 ##### Linear Regression, K-Neigbors Regressor, Decision Tree Regressor, Gradient Boosting Regressor
+
+1. Regplot of Linear Regression
 <img width="610" alt="Regplot of Linear Regression" src="https://github.com/edrishakimi1/Sc1015-Retail-Car-Prediction-Price/assets/106168087/7b5097c1-e69d-4ddf-9009-1f26032d6109">
+
+2. Regplot of K-Neighbors Regressor
+<img width="603" alt="Regplot of K-Neighbors Regressor" src="https://github.com/edrishakimi1/Sc1015-Retail-Car-Prediction-Price/assets/106168087/60265a16-bef7-45f4-ace0-c704696c8d51">
+
+3. Regplot of Decision Tree Regressor
+<img width="610" alt="Regplot of Decision Tree Regressor" src="https://github.com/edrishakimi1/Sc1015-Retail-Car-Prediction-Price/assets/106168087/0a1838ff-33d2-4aa8-94af-5a5264c46ab5">
+
+4. Regplot of Gradient Boosting Regressor
+<img width="618" alt="Regplot of Gradient Boosting Regressor" src="https://github.com/edrishakimi1/Sc1015-Retail-Car-Prediction-Price/assets/106168087/839912c7-d176-4f48-bd08-7b763eaa64ff">
+
+##### 4.5 Observations when comparing all the regplot for the 4 types of machine learning model
+
+The regression line in these plots represents the relationship learned by the model. Ideally, for perfect predictions, all points would lie on the line where the predicted value equals the actual value (the diagonal line, if it were plotted) The closer the points to this hypothetical diagonal line, the better the model's prediction. 
+
+When we compare the tightness of the scatter around the regression line in these graphs, the Gradient Boosting Regressor appears to be performing the best, followed by the K-Neighbors Regressor, Decision Tree Regress, and lastly the Linear Regression.
+
+1. Barplot of Machine Learning Models with MAE
+<img width="667" alt="Barplot of Machine Learning Models with MAE" src="https://github.com/edrishakimi1/Sc1015-Retail-Car-Prediction-Price/assets/106168087/7aeea383-a772-4f26-a537-d17fac574ee4">
+
+
+2. Barplot of Machine Learning Models with MSE
+<img width="667" alt="Barplot of Machine Learning Models with MSE" src="https://github.com/edrishakimi1/Sc1015-Retail-Car-Prediction-Price/assets/106168087/cb7eb91e-68e3-4c25-9039-92e42abeee38">
+
+##### 4.8 Observations when using Barplot for comparing all the 4 types of machine learning model using MAE and MSE
+1.Mean Absolute Error (MAE)
+
+Importantly, this metric gives an average of the absolute differences between the predicted and actual values. It's straight forward and easy to interpret since it's in the sam eunits as the target variable. The lower the MAE, the better the model's performance.
+
+2.Mean Squared Error (MSE)
+
+Importantly, this metric squares the difference between the predicted and actual values, which penalizes larger errors more severely than smaller ones. Like MAE, a lower MSE indicates better performance, but because of the squaring, MSE is more sensitive to outliers than MAE.
+
+When evaluating models, a model with both a low MAE and MSE is considered good, but these two metrics can sometimes tell a slightly different story. A low MAE with high MSE might indicate that while a model is generally accurate, there are a few predictions with large errors (potential outliers). Conversely, a high MAE with a low MSE might suggest that the model consistently makes moderate errors but doesn't have extreme errors.
+
+3. Barplot Analysis
+The bar plots help to visualise these metrics across different models. In the context of car price prediction, we want to look at models that has the lowest bar in both MAE and MSE plots. 
+
+To summarise, Decision Tree Regressor has the lowest for both MAE and MSE so it is predicts better and accurately, and this represents how well the model has learned from the training data and how it generalise to new, unseen data. Followed by Gradient Boosting Regressor, K - Nearest Regressor, and lastly Linear Regression.
 
 
 
