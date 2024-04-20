@@ -132,6 +132,11 @@
 ##### Feng Ren - Presentation, Data Analysis, Machine Learning
 ##### Younes - Presentation, Data Cleaning, EDA 
 
+##### 1.2 Source of Data
+
+Below is the link to the dataset we use for our analysis.
+
+https://www.kaggle.com/CooperUnion/cardataset
 
 ## Problem Formulation
 ##### Predict Manufacturer's Suggested Retail Price
