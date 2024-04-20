@@ -131,6 +131,7 @@
 
 
 ## Problem Formulation
+##### Predict Manufacturer's Suggested Retail Price
 
 In order to evaluate how we gonna predict the car price, we have to consider the questions chronologically.
 
