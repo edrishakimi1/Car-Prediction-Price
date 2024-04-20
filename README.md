@@ -158,8 +158,11 @@ In order to evaluate how we gonna predict the car price, we have to consider the
 7. We use target encoding for the 'Year', 'Model' and 'Make' and the one hot encoding for the rest of the missing values 'Engine Fuel Type, 'Transmission Type', 'Driven_Wheels', 'Vehicle Size', and 'Vehicle Style.
 8. Based on the observation of regplot and barplot to compare the 4 different machine learning models, as a tighter clustering of points around y=x line indicates better preddictions, and a narrower confidence band around the line of best fit also suggests higher accuracy, Gradient Boosting Regressor fits the best, followed by the K-Neighbors Regressor, Decision Tree Regressor, and lastly the Linear Regression. Whereas for barplot when comparing with metrics of MAE and MSE, Decision Tree Regressor has the lowest for both MAE and MSE so it is predicts better and accurately, and this represents how well the model has learned from the training data and how it generalise to new, unseen data. Followed by Gradient Boosting Regressor, K - Nearest Regressor, and lastly Linear Regression.
 
+
+
 ## Machine Learning 
 ##### Linear Regression, K-Neigbors Regressor, Decision Tree Regressor, Gradient Boosting Regressor
+<img width="610" alt="Regplot of Linear Regression" src="https://github.com/edrishakimi1/Sc1015-Retail-Car-Prediction-Price/assets/106168087/7b5097c1-e69d-4ddf-9009-1f26032d6109">
 
 
 
