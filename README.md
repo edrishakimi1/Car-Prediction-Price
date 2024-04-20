@@ -130,7 +130,7 @@
 ##### Younes - Presentation, Data Cleaning, EDA 
 
 
-## Problem Formulation and Conclusion:
+## Problem Formulation
 
 In order to evaluate how we gonna predict the car price, we have to consider the questions chronologically.
 
@@ -143,7 +143,7 @@ In order to evaluate how we gonna predict the car price, we have to consider the
 7. Check the data again for variables that has catergorical values, we have to address them by changing to numerical values for the machine learning to analyse?
 8. Plot the different machine learning model and check which prediction model has the best result, in terms of lowest mean squared error (MSE) and lowest mean absolute error (MAE), when also checking for which range of values work best?
 
-Answer:
+## Conclusion
 
 1. We have observe all the variables and their count, e.g. 'Cheverolet has the highest number of cars followed by ford', 'in 2015 to 2017 which recent years has higher cars', 'Automatic or manual is higher and more relevant then cars with both automatend and manual mode', 'cars are using more unleaded engine fuel compared to electric','alot of compact cars and lesser large cars'.
 2. We observe that 'Market Category' has alot of missing values followed by, 'Engine HP', 'Engine Cyclinders', 'Engine Fuel Type', 'Number of Doors'.
